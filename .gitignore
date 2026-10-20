@@ -22,3 +22,22 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Android SDK local
+local.properties
+
+# Arquivos gerados pelo Gradle e Android
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Configurações locais
+.DS_Store
+Thumbs.db
